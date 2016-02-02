@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AVIS San Donà di Piave</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_share">Condividi</string>
+    <string name="action_info">Informazioni</string>
+    <string name="title_activity_prenota">Prenotazione</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chi_siamo"
+            android:icon="@drawable/ic_people"
+            android:title="Chi Siamo" />
+        <item
+            android:id="@+id/nav_sedi"
+            android:icon="@drawable/ic_sedi"
+            android:title="Sedi Distrettuali" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_list"
+            android:title="News ed Eventi" />
+    </group>
+
+    <item android:title="Donazioni">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_sangue"
+                    android:icon="@drawable/ic_sangue"
+                    android:title="Donazioni Sangue" />
+                <item
+                    android:id="@+id/nav_plasma"
+                    android:icon="@drawable/ic_plasma"
+                    android:title="Donazioni Plasma" />
+                <item
+                    android:id="@+id/nav_aspiranti_donatori"
+                    android:icon="@drawable/ic_aspiranti"
+                    android:title="Aspiranti Donatori" />
+                <item
+                    android:id="@+id/nav_volontari"
+                    android:icon="@drawable/ic_volontari"
+                    android:title="Volontari in APPrendimento" />
+                <item
+                    android:id="@+id/nav_prenota"
+                    android:icon="@drawable/ic_prenota"
+                    android:title="Prenota Donazioni" />
+                <item
+                    android:id="@+id/nav_sconti_convenzioni"
+                    android:icon="@drawable/ic_sconti"
+                    android:title="Sconti e Convenzioni" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Contatti">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_telefono"
+                    android:icon="@drawable/ic_telefono"
+                    android:title="Telefono"></item>
+                <item
+                    android:id="@+id/nav_mail"
+                    android:icon="@drawable/ic_email"
+                    android:title="Mail"></item>
+            </group>
+        </menu>
+    </item>
+</menu>
